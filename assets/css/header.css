@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+#content_header_info{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+    background: var(--color1);
+}
+.logomarca_nu{
+    width: 10vh;
+}
+#container_main_content {
+    height: 100vh;
+   
+}
+.list_nav_links_nu{
+    display: none;
+
+}
