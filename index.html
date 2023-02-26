@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- link para ICO-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <!--Estilos de aplicação-->
     <link rel="stylesheet" href="assets/css/stylle.css">
     <title>Login NU</title>
@@ -51,12 +53,15 @@
    <main class="main-content "id="main-content">
     <!--Sessão onde estão distríbuidos os conteúdos principais de apresentação da página de login -->
         <section class="main-content-marketing_card">
-                    <div class="main-content_container">
-                        <h2 class="main-content-title_main"> O planejamento do seu futuro a um clique. </h2>
+                    <div class="container-general">
+                        <div class="main-content_container">
+                            <h2 class="main-content-title_main"> O planejamento do seu futuro a um clique. </h2>
+                            <h3 class="subtitle_main_content"> Peça já seu cartão</h3>
+                        </div>
+                        
+                            <input type="tel" class="cpf" placeholder="Digite aqui seu cpf" required>
+                            <button class="btn_client"><a href="login.html" class="btn_click">Continuar</a>  </button>
                     </div>
-                        <h3 class="subtitle_main_content"> Peça já seu cartão</h3>
-                        <input type="tel" class="cpf" placeholder="Digite aqui seu cpf" required>
-                        <button class="btn_client"><a href="login.html" class="btn_click">Continuar</a>  </button>
             
                    
                 
@@ -70,22 +75,18 @@
 
         <section class="show-cards" id="cards">
             <!-- Sessão de apresentação dos benefícios do cartão separada por premium e convencional da linha crédito -->
-            <div class="show-cards-container-card">
-                <div class="benefits_credit_card">
-                    <h2 class="title_classic_card">Conheça o cartão de crédito mais aceito em todo brasil</h2>
+                <div class="show-cards-benefits-credit-card">
+                    <h2 class="show-cards-title_classic_card">Conheça o cartão de crédito mais aceito em todo brasil</h2>
                     <h3> Saiba todas as vantagens que voce obtém ao investir neste cartão.</h3>
                 
                     <a href="">Saiba mais</a>
                 </div>
                 <img src="assets/img/transferir.jfif"  class="woman_card"alt="" >
-            </div>
-
-        </section>
             <div class="benefits_card_credit_premium">
                 <h2>Nubank Premium</h2>
                 <h3> O cartão premium que vai te proporcionar experiências inesquecíveis.</h3>
                 
-                <a href="">Saiba mais</a>
+                <a href="" class="link_interação"> Saiba mais </a>
             </div>
 
         </section>
