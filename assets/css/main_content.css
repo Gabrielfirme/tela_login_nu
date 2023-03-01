@@ -88,7 +88,7 @@ body {
     }
     
     .main-content-marketing_card {
-      background: gray;
+      background: rgb(255, 255, 255);
       width: 100%;
       height: 30rem;
       padding: 2vh;
@@ -103,11 +103,12 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: aliceblue;
+      background-color: rgb(255, 255, 255);
       border-radius: 5vh;
       padding: 3vh;
     }
     .main-content-title_main, .subtitle_main_content{
+      
       color: rgb(19, 18, 18);
       text-align: center;
       padding: 1vh;
@@ -150,19 +151,28 @@ body {
     
     }
     .show-cards-title_classic_card{
-      text-align: center;
+     padding: 5vh;
+    text-align: center;
     }
     .show-cards-benefits-credit-card{
       display: flex;
       height: 40vh;
-      flex-direction: column;
       justify-content: left;
       margin-bottom:3vh;
       align-items: center;
       margin: 4vh auto;
+      padding: 7vh;
+      background: var(--color1);
+    }
+    .saiba_mais{
+      margin-top: 10%;
+      color:var(--color2);
+      text-align: left;
+      text-decoration: none;
     }
     .card_nuu{
       display: flex;
+      flex-direction: column;
     
       
     }

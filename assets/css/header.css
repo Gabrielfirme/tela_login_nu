@@ -16,6 +16,7 @@
   }
   .header-nav-texto-links {
     text-align: center;
+  ;
     padding: 1vh;
   }
   .header-nav-text-links {
@@ -60,6 +61,11 @@
       .header-nav-text-links {
         color: purple;
         text-decoration: none;
+        margin:.8vh;
+      }
+      .header-nav-text-links:hover{
+        text-decoration: underline;
+        transition: 0.3ms;
       }
       .header-nav-btn-login {
         background: none;
