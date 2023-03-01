@@ -72,6 +72,19 @@
         color: purple;
         text-decoration: none;
       }
+      .quero_nu{
+        background: var(--color2);
+        color: var(--color1);
+        border-radius: 3vh;
+        text-decoration: none;
+        padding: 1.8vh;
+      }
+
+      .quero_nu:hover{
+        background: var(--color1);
+        color:var(--color2) ;
+      }
+
      
 
     

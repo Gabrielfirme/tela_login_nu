@@ -1,8 +1,27 @@
+
+@media screen and (min-width:780px) {
 #footer_principal{
     display: flex;
     padding: 5vh;
+    background: var(--color3);
    
 }
 .nubank{
     margin-left: 10vh;
+}
+.nubank_item{
+    font-family: var(--font2);
+    padding: .8vh;
+    color: var(--color1);
+}
+.title-footer-itens{
+    font-family: var(--font2);
+    color: var(--color1);
+    padding-bottom: 9.5vh;
+}
+.nubank_item a{
+    color: var(--color1);
+    text-decoration: none;
+}
+
 }

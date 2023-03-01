@@ -1,7 +1,15 @@
 @import url(header.css);
 @import url(main_content.css);
 @import url(footer.css);
-
+@import url(login.css);
+@font-face {
+  font-family: "Golos";
+  src: url(../fonts/HindSiliguri-Medium.ttf);
+}
+@font-face {
+  font-family: "Hind";
+  src: url(../fonts/HindSiliguri-Light.ttf);
+}
 
 * {
   margin: 0;
@@ -11,5 +19,8 @@
 :root {
   --color1:#FFF;
   --color2:#820AD1;
+  --color3:#000000;
+  --font1:"Hind";
+  --font2:"Golos"
 }
-
+body

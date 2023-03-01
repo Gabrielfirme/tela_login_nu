@@ -1,0 +1,294 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{ 
+    display: block;
+    text-align: center;
+    
+}
+.logo_nunu{
+    width: 10%;
+}
+#login{
+    background: var(--color2);
+    
+}
+/* contéudo principal onde o uua´rio irá inserir os dados para conseguir acessar a outra página de login */
+.main_content{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 80vh;
+   
+}
+.container-login{
+    width: 70vh;
+    height: 70%;
+    background: var(--color1);
+    border-radius: 4vh;
+}
+.title-main-login{
+    font-family: var(--font1);
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 3vh 3vh;
+    text-align: center;
+    
+}
+.login_main{
+  
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color1);
+    border-radius: 4vh 4vh ;
+
+}
+.cpf{
+    width: 60%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px dashed var(--color2) ;
+    
+}
+.cpf:hover{
+    font-size: 20px;
+
+}
+#pass{
+    text-align: center;
+    margin:0 auto;
+    width: 50%;
+    margin-top: 1vh;
+    border: none;
+    border-bottom: 1px dashed var(--color2) ;
+  
+}
+#pass:hover {
+    font-size: 20px;
+}
+.button_sub{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 4vh;
+    margin-top: 4vh;
+    padding: 1vh 2vh;
+    border: none;
+    margin-bottom: 10vh;
+}
+.button_sub a{
+    color: var(--color2);
+    text-decoration: none;
+}
+.button_sub:hover{
+    border: 1px solid var(--color2);
+    cursor: pointer;
+
+}
+
+
+.others{
+    font-family: var(--font1);
+    color: var(--color2);
+    text-align: center;
+    text-decoration: none;
+}
+.others:hover{
+    text-decoration: underline;
+  
+}
+
+
+@media screen and (min-width:780px) {
+/* contéudo de estilização do cabeçalho da pagina de login*/
+header{ 
+    display: flex;
+    height: 20vh;
+}
+.logo_nunu{
+    width: 10%;
+}
+#login{
+    background: var(--color2);
+    
+}
+/* contéudo principal onde o uua´rio irá inserir os dados para conseguir acessar a outra página de login */
+.main_content{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 80vh;
+   
+}
+.container-login{
+    width: 70vh;
+    height: 70%;
+    background: var(--color1);
+    border-radius: 4vh;
+}
+.title-main-login{
+    font-family: var(--font1);
+    padding: 3vh 3vh;
+    text-align: center;
+    
+}
+.login_main{
+    width: 70vh;
+    height: 65vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color1);
+    border-radius: 4vh 4vh 4vh;
+
+}
+.cpf{
+    text-align: center;
+    border: none;
+    border-bottom: 1px dashed var(--color2) ;
+}
+.cpf:hover{
+    font-size: 20px;
+
+}
+#pass{
+    text-align: center;
+    margin:0 auto;
+    width: 50%;
+    margin-top: 1vh;
+    border: none;
+    border-bottom: 1px dashed var(--color2) ;
+  
+}
+#pass:hover {
+    font-size: 20px;
+}
+.button_sub{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 4vh;
+    margin-top: 4vh;
+    padding: 1vh 2vh;
+    border: none;
+    margin-bottom: 10vh;
+}
+.button_sub a{
+    color: var(--color2);
+    text-decoration: none;
+}
+.button_sub:hover{
+    border: 1px solid var(--color2);
+    cursor: pointer;
+
+}
+
+
+.others{
+    font-family: var(--font1);
+    color: var(--color2);
+    text-align: center;
+    text-decoration: none;
+}
+.others:hover{
+    text-decoration: underline;
+  
+}
+}
+
+@media screen and (min-width:844px){
+
+    .main_content{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 80vh;
+       
+    }
+    .container-login{
+        width: 70vh;
+        height: 70%;
+        background: var(--color1);
+        border-radius: 4vh;
+    }
+    .title-main-login{
+        font-family: var(--font1);
+        font-size: 3vh;
+        font-weight: bold;
+        padding: 3vh 3vh;
+        text-align: center;
+        
+    }
+    .login_main{
+      
+        height: 50vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: var(--color1);
+        border-radius: 4vh 4vh ;
+    
+    }
+    .cpf{
+        width: 60%;
+        text-align: center;
+        border: none;
+        border-bottom: 1px dashed var(--color2) ;
+        
+    }
+    .cpf:hover{
+        font-size: 20px;
+        margin-bottom: 5vh;
+    
+    }
+    #pass{
+        text-align: center;
+        margin:0 auto;
+        width: 50%;
+        margin-top: 1vh;
+        border: none;
+        border-bottom: 1px dashed var(--color2) ;
+      
+    }
+    #pass:hover {
+        font-size: 20px;
+    }
+    .button_sub{
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 4vh;
+        margin-top: 4vh;
+        padding: 1vh 2vh;
+        border: none;
+        margin-bottom: 10vh;
+    }
+    .button_sub a{
+        color: var(--color2);
+        text-decoration: none;
+    }
+    .button_sub:hover{
+        border: 1px solid var(--color2);
+        cursor: pointer;
+    
+    }
+    
+    
+    .others{
+        font-family: var(--font1);
+        color: var(--color2);
+        text-align: center;
+        text-decoration: none;
+    }
+    .others:hover{
+        text-decoration: underline;
+      
+    }
+
+}
